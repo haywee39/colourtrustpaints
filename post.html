@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colour Trust Paints Blog Post</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+  <a href="blog.html">← Back to Blog</a>
+  <div id="post-content"></div>
+
+
+  <script src="./posts.js"></script>
+  <script>
+    
+    const params = new URLSearchParams(window.location.search);
+    const postId = params.get('id');
+    const post = posts.find(p => p.id === postId);
+
+    const container = document.getElementById('post-content');
+    if (post) {
+      container.innerHTML = `
+        <h1>${post.title}</h1>
+        <p>
+          <strong style="color: orangered;">Category:</strong> ${post.category} 
+          || 
+          <strong style="color: orangered;">Date:</strong > ${post.date}
+        </p>
+        ${post.content}
+      `;
+    } else {
+      container.innerHTML = `<p>Post not found.</p>`;
+    }
+
+    
+  </script>
+</body>
+</html>
