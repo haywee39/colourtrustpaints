@@ -27,6 +27,8 @@
     }
     .logo{
       width: 100%;
+      height: 48vh;
+      background-color: #1f3b5c;
     }
     .name{
       width: 100%;
@@ -81,8 +83,6 @@
     }
     .perfect-cov{
       flex-direction: column ;
-      /* width: 100%; */
-      /* height: auto; */
     }
     .title{
       justify-content: center;
@@ -110,6 +110,8 @@
       align-items: center;
       width: 100vw;
       height: auto;
+      margin-bottom: 20px;
+      /* gap: 20px; */
     }
     .top-ryt .pic1 img, .bottom-left .pic1 img{
       padding: 0;
@@ -149,6 +151,16 @@
     .blog{
       width: 300px;
       height: 300px;
+      margin-bottom:50px;
+    }
+    .blog-container{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* gap: 30px; */
+      /* margin-bottom: 30px; */
     }
      /* **************************************8 */
      footer{
