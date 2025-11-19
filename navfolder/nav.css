@@ -1,0 +1,71 @@
+.navbar {
+  background-color: #1f3b5c;
+  height:20vh;
+  z-index: 10;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler .open-icon {
+  display: inline-block;
+  color: #fdf8f3;
+  font-size: 35px;
+}
+
+.navbar-toggler:not(.collapsed) .open-icon {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .close-icon {
+  display: inline-block;
+  color: #fdf8f3;
+  font-size: 45px;
+}
+
+.close-icon {
+  display: none;
+}
+
+.navbar-collapse {
+  background-color: #1f3b5c;
+  padding: 100px;
+}
+
+.nav-link {
+  color: #fdf8f3 !important;
+  text-align: center;
+  margin:0 25px;
+  font-size: 18px;
+}
+
+.nav-item a:hover{
+  color: orangered !important;
+  background-color: #fdf8f3;
+  border-radius: 5px;
+}
+.nav-link.active {
+  background-color: white;
+  color: orangered !important;
+  border-radius: 5px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.social-icons a {
+  color: #fdf8f3;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #fdf8f3;
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: orangered;
+}

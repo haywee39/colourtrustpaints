@@ -1,11 +1,5 @@
 @media (max-width: 768px) {
 
-    nav.navbar {
-      height: 15vh;
-      background-color: transparent;
-      z-index: 1000;
-    }
-
     #about-us{
       padding: 0;
       margin-top: 50px;
