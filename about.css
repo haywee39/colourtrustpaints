@@ -60,14 +60,13 @@
   height: 60vh;
   align-items: center;
   justify-content: space-evenly;
-  /* background-color: aqua; */
 }
 .cover {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40vw; 
-  height: 55vh;
+  height: 56vh;
   position: relative;
   overflow: hidden;
   color: white;
