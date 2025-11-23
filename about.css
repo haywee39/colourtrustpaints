@@ -64,7 +64,7 @@
 }
 .cover {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   width: 40vw; 
   height: 55vh;
