@@ -82,7 +82,7 @@
     width: 100vw;
     height: 60vh;
     background-image: url();
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 

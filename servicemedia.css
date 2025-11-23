@@ -1,33 +1,5 @@
 @media (max-width: 768px) {
 
-
-
-
-      /* **************************************8 */
-      footer{
-        flex-direction: column;
-        width: 100%;
-      }
-      .one{
-        display: flex;
-        width: 100%;
-        height: auto;
-      }
-      .two{
-        width: 100%;
-        padding: 10px;
-        /* background-color: lime; */
-      }
-  
-      .ban{
-        width: 100%;
-        padding-left: 25px;
-      }
-      .address{
-        width: 100%;
-      }
-  
-   
     }
 
     /* *********************************** */
@@ -52,12 +24,6 @@
     .social-icons {
       padding: 0;
     }
-
-
-
-
-
-
 
    
   }
